@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { StyleSheet, StatusBar, BackHandler } from 'react-native';
 import { WebView } from 'react-native-webview';
-import { useFocusEffect } from '@react-native-community/hooks';
 
 export default function App() {
   const webViewRef = useRef(null);
@@ -11,7 +10,7 @@ export default function App() {
     const onBackPress = () => {
       if (webViewRef.current) {
         webViewRef.current.goBack();
-        return true; // prevent default exit
+        return true;
       }
       return false;
     };
