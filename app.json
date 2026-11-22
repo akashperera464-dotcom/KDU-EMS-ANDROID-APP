@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Dalu Plus",
+    "slug": "kdu-ems",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.kdu.daluplus",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#064e3b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb47a198-2523-4fb7-bc7f-cb5266cc70de"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bb47a198-2523-4fb7-bc7f-cb5266cc70de"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
